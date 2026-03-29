@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F0F">
+
+    <!-- Header com Logo e Botão de Suporte/MAC -->
+    <ImageView
+        android:id="@+id/imgLogoSmall"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_margin="24dp"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:backgroundTint="#91033D"
+        android:fontFamily="sans-serif-black"
+        android:text="mac:00:00:00:00:00:00"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:nextFocusDown="@id/cardCanais"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Menu Principal (Canais, Filmes, Séries) -->
+    <LinearLayout
+        android:id="@+id/layoutMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Card Canais -->
+        <FrameLayout
+            android:id="@+id/cardCanais"
+            android:layout_width="220dp"
+            android:layout_height="140dp"
+            android:layout_margin="12dp"
+            android:background="@drawable/bg_card_selector"
+            android:focusable="true"
+            android:clickable="true"
+            android:nextFocusUp="@id/btnSupport">
+            <ImageView
+                android:id="@+id/imgCanais"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:id="@+id/txtCanais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#80000000"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="CANAIS"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <!-- Card Filmes -->
+        <FrameLayout
+            android:id="@+id/cardFilmes"
+            android:layout_width="220dp"
+            android:layout_height="140dp"
+            android:layout_margin="12dp"
+            android:background="@drawable/bg_card_selector"
+            android:focusable="true"
+            android:clickable="true"
+            android:nextFocusUp="@id/btnSupport">
+            <ImageView
+                android:id="@+id/imgFilmes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:id="@+id/txtFilmes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#80000000"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="FILMES"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <!-- Card Séries -->
+        <FrameLayout
+            android:id="@+id/cardSeries"
+            android:layout_width="220dp"
+            android:layout_height="140dp"
+            android:layout_margin="12dp"
+            android:background="@drawable/bg_card_selector"
+            android:focusable="true"
+            android:clickable="true"
+            android:nextFocusUp="@id/btnSupport">
+            <ImageView
+                android:id="@+id/imgSeries"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:id="@+id/txtSeries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#80000000"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="SÉRIES"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

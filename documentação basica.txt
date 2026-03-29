@@ -1,0 +1,61 @@
+====================================================
+       GUIA DE EDIÇÃO VISUAL - BIGBOX PLAYER
+====================================================
+
+Este documento serve como guia para edição da interface (UI/UX)
+e entendimento da estrutura do projeto Android Nativo (Kotlin).
+
+1. LOCALIZAÇÃO DOS ARQUIVOS DE LAYOUT (XML)
+-------------------------------------------
+Todos os arquivos de design das telas estão em:
+`app/src/main/res/layout/`
+
+- activity_splash.xml: Tela de abertura (Carregamento de 8s).
+- activity_main.xml: Menu principal (Canais, Filmes, Séries).
+- activity_category.xml: Grade de exibição de itens (usada por Live, Movies e Series).
+- activity_player.xml: Tela do reprodutor de vídeo (ExoPlayer).
+- item_stream.xml: Design de cada 'card' dentro da grade de canais.
+
+2. CORES E TEMAS (PERSONALIZAÇÃO RÁPIDA)
+-----------------------------------------
+Para mudar as cores globais do app:
+- Cores: `app/src/main/res/values/colors.xml`
+- Temas/Estilos: `app/src/main/res/values/themes.xml`
+
+A cor principal atual (Vinho/Vermelho) é: #91033D
+
+3. ÍCONES E BANNERS DA ANDROID TV
+----------------------------------
+O ícone retangular que aparece na home da TV é controlado por:
+- Arquivo: `app/src/main/res/drawable/tv_banner.xml`
+- Logo Central: `app/src/main/res/drawable/logo.png`
+
+4. ENDPOINTS E LINKS DA API
+----------------------------
+O app comunica-se com o servidor para autenticação e recebimento de conteúdo.
+
+- URL Base: https://bigbox.eletrixtv.top/
+- Endpoint de Autenticação: https://bigbox.eletrixtv.top/api.php
+- Pasta de Assets Externos (Imagens dos menus):
+  https://bigbox.eletrixtv.top/webviews/canais.png
+  https://bigbox.eletrixtv.top/webviews/filmes.png
+  https://bigbox.eletrixtv.top/webviews/series.png
+
+5. LOGICA DO MAC ADDRESS
+-------------------------
+O app gera um ID único formatado como MAC (ex: AA:BB:CC:11:22:33).
+- Onde visualizar: No menu principal, no retangulo do lado direito , coloquei pois   pessoa pode esquecer o mac e como nao coloquei outras telas com mac ai coloquei ai
+- Formato exibido: "mac:AA:BB:CC:DD:EE:FF"
+
+6. COMPORTAMENTO DE FOCO (CONTROLE REMOTO)
+------------------------------------------
+Como o app é para tv ai o foco é o destaque pra saber o que ta selecionado
+- O arquivo `app/src/main/res/drawable/bg_card_selector.xml` controla o efeito de 'brilho' e borda quando um item é selecionado com o controle remoto.
+
+7. DEPENDÊNCIAS PRINCIPAIS
+-------------------------------------------------
+- Player: ExoPlayer (Media2/Legacy)
+- Imagens: Coil (Carregamento assíncrono via URL)
+- Rede: Retrofit + OkHttpClient (Configurado para ignorar SSL inválido)
+- Arquitetura: MVVM com ViewBinding.
+
