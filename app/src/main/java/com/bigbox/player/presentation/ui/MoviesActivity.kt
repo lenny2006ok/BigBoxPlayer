@@ -11,6 +11,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.bigbox.player.data.repository.XtreamRepository
 import com.bigbox.player.databinding.ActivityCategoryBinding
 import com.bigbox.player.presentation.viewmodel.MoviesUiState
@@ -34,7 +35,6 @@ class MoviesActivity : AppCompatActivity() {
         binding = ActivityCategoryBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.txtCategoryTitle.text = "FILMES"
         setupObservers()
         initData()
     }
@@ -59,23 +59,29 @@ class MoviesActivity : AppCompatActivity() {
                         is MoviesUiState.Loading -> binding.loadingCategory.visibility = View.VISIBLE
                         is MoviesUiState.SuccessCategories -> {
                             binding.loadingCategory.visibility = View.GONE
-                            binding.recyclerItems.layoutManager = GridLayoutManager(this@MoviesActivity, 2)
-                            binding.recyclerItems.adapter = CategoryAdapter(state.categories) { category ->
+                            
+                            // Configura Sidebar
+                            binding.recyclerSidebar.layoutManager = LinearLayoutManager(this@MoviesActivity)
+                            binding.recyclerSidebar.adapter = CategoryAdapter(state.categories) { category ->
                                 viewModel.loadStreams(category.id)
+                            }
+
+                            // Carrega a primeira categoria automaticamente
+                            if (state.categories.isNotEmpty()) {
+                                viewModel.loadStreams(state.categories[0].id)
                             }
                         }
                         is MoviesUiState.SuccessStreams -> {
                             binding.loadingCategory.visibility = View.GONE
                             binding.recyclerItems.layoutManager = GridLayoutManager(this@MoviesActivity, 5)
                             binding.recyclerItems.adapter = StreamAdapter(state.streams) { stream ->
-                                // SINCRONIZAÇÃO DE ORIGEM (PASSO 1)
+                                // ABRE TELA DE DETALHES
                                 val playlistUrl = intent.getStringExtra("PLAYLIST_URL") ?: ""
-                                startActivity(Intent(this@MoviesActivity, PlayerActivity::class.java).apply {
+                                startActivity(Intent(this@MoviesActivity, MovieDetailsActivity::class.java).apply {
                                     putExtra("PLAYLIST_URL", playlistUrl)
-                                    putExtra("STREAM_ID", stream.streamId.toString())
-                                    putExtra("STREAM_TYPE", "movie") // Forçando rota de filmes
-                                    putExtra("CONTAINER_EXTENSION", stream.containerExtension)
+                                    putExtra("STREAM_ID", stream.streamId)
                                     putExtra("STREAM_NAME", stream.name)
+                                    putExtra("STREAM_ICON", stream.icon)
                                 })
                             }
                         }

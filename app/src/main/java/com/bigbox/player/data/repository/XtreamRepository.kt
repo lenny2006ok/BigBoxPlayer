@@ -59,6 +59,11 @@ class XtreamRepository(
             }
         }
 
+    suspend fun getVodInfo(u: String, p: String, vodId: Int) =
+        withContext(Dispatchers.IO) {
+            service.getVodInfo(user ?: u, pass ?: p, vodId = vodId)
+        }
+
     /**
      * RECONSTRUÇÃO DO URL BUILDER (PASSO 2)
      * Regra obrigatória Xtream Codes para rotas dinâmicas.

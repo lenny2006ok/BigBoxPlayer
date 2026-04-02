@@ -1,0 +1,405 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:2:1-71:12
+MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\51d09b764315537601145e3270da9ae7\transformed\jetified-viewbinding-8.13.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c17593d68987880a43a186c34a499459\transformed\jetified-fragment-ktx-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\4c7d329c5734d4e1fddc17bdc35d5b2b\transformed\jetified-activity-ktx-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\db41ffbf00dc68d107bb7f850d5c3392\transformed\jetified-lifecycle-runtime-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\cf00f296e49362a42cdb2db0e2e48dd3\transformed\jetified-lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\23f12193b68b20bb2200a357c8c87afc\transformed\jetified-room-ktx-2.4.3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\001563f6d0446fb67e84860f827df094\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d611cf7a260c115f5c29e37d3d4d0090\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3b06742662e8a99bffd58a824a4b081f\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\fc64888a44f42911a9a893d7e621ddfa\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\8f4c24b54e81809a6b2d01b39319bea3\transformed\fragment-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c899eb326375955c5d1e5bd7048b43b0\transformed\jetified-activity-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\80e4d749e2069dcd781d428ab05ca68d\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\6c166f8bc8b1458d8ea0a98966268388\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\f98983239b748b9829e4474ed467c278\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\447e99e9cf8544c436086c82844ed026\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\58bf7ec87b924081657ff023dacf7b26\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\216d37e9d7c005e379fe32cf6518c612\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\023ed5b11fdf7de4d4a0f237cfaf7254\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [io.coil-kt:coil:2.2.2] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c633d7eb456000c50cd5fa6328d52b9e\transformed\jetified-coil-2.2.2\AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-base:2.2.2] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3b76e17d62bd8eca59c3ba2e0efcbda9\transformed\jetified-coil-base-2.2.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\016a906cc97757b2952ac02988cc1df3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\370b9120ebe20b8da1388d4c81bdc179\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\656e93bec60d68f4dbaeed2d1761b37b\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\db3eeb4e526480fc3a18470fedef8e0d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\938e378ce0a601c650faa6e1ac2f6ec8\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\b62880f81ddcd7ae0612c8b3bba37964\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\47fd0fd71bfbb074c8f7277104494b49\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\e355ed8503c65554d7ffddf35455e06d\transformed\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\71640cf60cbe4c398a1b6bd75d2bdbe2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\b7bf09ec4d2c44bba668d03a25c39fd5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3fed2134409acdf2288bccc062ae9ae8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\a20fdabbc16eb71a34d429433ace68f4\transformed\jetified-exoplayer-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\dfaf74bab5b4a298b819bb4f4d2e4511\transformed\jetified-exoplayer-dash-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\f17163d9d74838f82691e291b8e93be3\transformed\jetified-exoplayer-hls-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\7dec94a9c9b9ae949f69b004f2b4f7c0\transformed\jetified-exoplayer-rtsp-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\009004785410c3b199ca45b7c13e59e6\transformed\jetified-exoplayer-smoothstreaming-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\aaacafbadeb484631ec9f14bdac6324c\transformed\jetified-exoplayer-ui-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d2d309554a5915194a00839bd9ac56be\transformed\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\8de8187fe8fef0831cbd2f2b32bb3610\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d905c65e7434187c162fb9c624354852\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d400ee79683a377c31a733dd91820995\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\21ee44b95f1271e824a42a0befbfff26\transformed\media-1.4.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\474f28c9caa6ba71d7b82695773dbc98\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core:1.8.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\93e0d241a1b28e9be834094115789900\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\12b1b2d3ec7c5a18d8276bbd1eac3dbe\transformed\lifecycle-runtime-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\69dfcbf1c534895d9b26ff5404a9df45\transformed\room-runtime-2.4.3\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\2233b438bd9d2926ca342400240019a3\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\2c42a92550d2d5d4ab77ae65aa443b81\transformed\sqlite-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\6a21146012d73784b76ef5cec95cdd04\transformed\jetified-exoplayer-datasource-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\ceb5472d694d1130972aae75414c218e\transformed\jetified-exoplayer-database-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\a706de063c1fab448f94dc14aaa9bf58\transformed\jetified-exoplayer-extractor-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\a541ee5b0c9e3b082cbd57e94804acd2\transformed\jetified-exoplayer-decoder-2.17.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\49e3c2df2f03aea55214931731a38b9f\transformed\jetified-exoplayer-common-2.17.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\84f4ee8d0344ed89ce498105a1db9d27\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\21208dd66db7927a8ff213c2dcaf98cd\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c09f4fa1b34b83a3a11323e4551a736a\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\0e04e0896fe6e5f243dde38eac347dfe\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d5fc9ef9a9b24dc3b15f3f0d01101e57\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\5561034aa6b5cc9c6ca084d31c5013c1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\a25ce9ca18952c301218584dbe57588f\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\14132ed282e81655950c0696f874489b\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c5b241e4d3cbbe591225c60f48fe3846\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\09859e25fa2b30f2c3b6bf0c9673068f\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\f45d4eb05411132ea9cf010e71f27f06\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\7cca0d4acb01fd09185139bc6b69efb9\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d2d309554a5915194a00839bd9ac56be\transformed\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d2d309554a5915194a00839bd9ac56be\transformed\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\49e3c2df2f03aea55214931731a38b9f\transformed\jetified-exoplayer-common-2.17.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\49e3c2df2f03aea55214931731a38b9f\transformed\jetified-exoplayer-common-2.17.1\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:6:22-76
+uses-feature#android.software.leanback
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:8:5-86
+	android:required
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:8:60-83
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:8:19-59
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:9:5-90
+	android:required
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:9:63-87
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:9:19-62
+application
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:11:5-70:19
+INJECTED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:11:5-70:19
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\001563f6d0446fb67e84860f827df094\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\001563f6d0446fb67e84860f827df094\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d611cf7a260c115f5c29e37d3d4d0090\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d611cf7a260c115f5c29e37d3d4d0090\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3fed2134409acdf2288bccc062ae9ae8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3fed2134409acdf2288bccc062ae9ae8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.8.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\93e0d241a1b28e9be834094115789900\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\93e0d241a1b28e9be834094115789900\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.room:room-runtime:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\69dfcbf1c534895d9b26ff5404a9df45\transformed\room-runtime-2.4.3\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\69dfcbf1c534895d9b26ff5404a9df45\transformed\room-runtime-2.4.3\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\84f4ee8d0344ed89ce498105a1db9d27\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\84f4ee8d0344ed89ce498105a1db9d27\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\5561034aa6b5cc9c6ca084d31c5013c1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\5561034aa6b5cc9c6ca084d31c5013c1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\93e0d241a1b28e9be834094115789900\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:12:9-36
+	android:banner
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:14:9-45
+	android:theme
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:19:9-50
+	android:logo
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:17:9-43
+	android:isGame
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:13:9-31
+	android:usesCleartextTraffic
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:20:9-44
+activity#com.bigbox.player.presentation.ui.SplashActivity
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:22:9-32:20
+	android:screenOrientation
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:25:13-50
+	android:exported
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:24:13-36
+	android:theme
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:26:13-65
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:23:13-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:29:27-74
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:30:17-86
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:30:27-83
+activity#com.bigbox.player.presentation.ui.MainActivity
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:34:9-37:53
+	android:screenOrientation
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:37:13-50
+	android:exported
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:35:13-57
+activity#com.bigbox.player.presentation.ui.LiveActivity
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:39:9-42:53
+	android:screenOrientation
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:42:13-50
+	android:exported
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:40:13-57
+activity#com.bigbox.player.presentation.ui.MoviesActivity
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:44:9-47:53
+	android:screenOrientation
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:47:13-50
+	android:exported
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:45:13-59
+activity#com.bigbox.player.presentation.ui.SeriesActivity
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:49:9-52:53
+	android:screenOrientation
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:52:13-50
+	android:exported
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:50:13-59
+activity#com.bigbox.player.presentation.ui.SeriesDetailsActivity
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:54:9-57:53
+	android:screenOrientation
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:57:13-50
+	android:exported
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:55:13-66
+activity#com.bigbox.player.presentation.ui.MovieDetailsActivity
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:59:9-62:53
+	android:screenOrientation
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:62:13-50
+	android:exported
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:60:13-65
+activity#com.bigbox.player.presentation.ui.PlayerActivity
+ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:64:9-68:78
+	android:screenOrientation
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:67:13-50
+	android:exported
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:66:13-37
+	android:configChanges
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:68:13-75
+	android:name
+		ADDED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:65:13-59
+uses-sdk
+INJECTED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\51d09b764315537601145e3270da9ae7\transformed\jetified-viewbinding-8.13.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\51d09b764315537601145e3270da9ae7\transformed\jetified-viewbinding-8.13.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c17593d68987880a43a186c34a499459\transformed\jetified-fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c17593d68987880a43a186c34a499459\transformed\jetified-fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\4c7d329c5734d4e1fddc17bdc35d5b2b\transformed\jetified-activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\4c7d329c5734d4e1fddc17bdc35d5b2b\transformed\jetified-activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\db41ffbf00dc68d107bb7f850d5c3392\transformed\jetified-lifecycle-runtime-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\db41ffbf00dc68d107bb7f850d5c3392\transformed\jetified-lifecycle-runtime-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\cf00f296e49362a42cdb2db0e2e48dd3\transformed\jetified-lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\cf00f296e49362a42cdb2db0e2e48dd3\transformed\jetified-lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\23f12193b68b20bb2200a357c8c87afc\transformed\jetified-room-ktx-2.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\23f12193b68b20bb2200a357c8c87afc\transformed\jetified-room-ktx-2.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\001563f6d0446fb67e84860f827df094\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\001563f6d0446fb67e84860f827df094\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d611cf7a260c115f5c29e37d3d4d0090\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d611cf7a260c115f5c29e37d3d4d0090\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3b06742662e8a99bffd58a824a4b081f\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3b06742662e8a99bffd58a824a4b081f\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\fc64888a44f42911a9a893d7e621ddfa\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\fc64888a44f42911a9a893d7e621ddfa\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\8f4c24b54e81809a6b2d01b39319bea3\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\8f4c24b54e81809a6b2d01b39319bea3\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c899eb326375955c5d1e5bd7048b43b0\transformed\jetified-activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c899eb326375955c5d1e5bd7048b43b0\transformed\jetified-activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\80e4d749e2069dcd781d428ab05ca68d\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\80e4d749e2069dcd781d428ab05ca68d\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\6c166f8bc8b1458d8ea0a98966268388\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\6c166f8bc8b1458d8ea0a98966268388\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\f98983239b748b9829e4474ed467c278\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\f98983239b748b9829e4474ed467c278\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\447e99e9cf8544c436086c82844ed026\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\447e99e9cf8544c436086c82844ed026\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\58bf7ec87b924081657ff023dacf7b26\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\58bf7ec87b924081657ff023dacf7b26\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\216d37e9d7c005e379fe32cf6518c612\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\216d37e9d7c005e379fe32cf6518c612\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\023ed5b11fdf7de4d4a0f237cfaf7254\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\023ed5b11fdf7de4d4a0f237cfaf7254\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil:2.2.2] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c633d7eb456000c50cd5fa6328d52b9e\transformed\jetified-coil-2.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:2.2.2] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c633d7eb456000c50cd5fa6328d52b9e\transformed\jetified-coil-2.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:2.2.2] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3b76e17d62bd8eca59c3ba2e0efcbda9\transformed\jetified-coil-base-2.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:2.2.2] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3b76e17d62bd8eca59c3ba2e0efcbda9\transformed\jetified-coil-base-2.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\016a906cc97757b2952ac02988cc1df3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\016a906cc97757b2952ac02988cc1df3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\370b9120ebe20b8da1388d4c81bdc179\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\370b9120ebe20b8da1388d4c81bdc179\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\656e93bec60d68f4dbaeed2d1761b37b\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\656e93bec60d68f4dbaeed2d1761b37b\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\db3eeb4e526480fc3a18470fedef8e0d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\db3eeb4e526480fc3a18470fedef8e0d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\938e378ce0a601c650faa6e1ac2f6ec8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\938e378ce0a601c650faa6e1ac2f6ec8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\b62880f81ddcd7ae0612c8b3bba37964\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\b62880f81ddcd7ae0612c8b3bba37964\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\47fd0fd71bfbb074c8f7277104494b49\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\47fd0fd71bfbb074c8f7277104494b49\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\e355ed8503c65554d7ffddf35455e06d\transformed\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\e355ed8503c65554d7ffddf35455e06d\transformed\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\71640cf60cbe4c398a1b6bd75d2bdbe2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\71640cf60cbe4c398a1b6bd75d2bdbe2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\b7bf09ec4d2c44bba668d03a25c39fd5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\b7bf09ec4d2c44bba668d03a25c39fd5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3fed2134409acdf2288bccc062ae9ae8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3fed2134409acdf2288bccc062ae9ae8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\a20fdabbc16eb71a34d429433ace68f4\transformed\jetified-exoplayer-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\a20fdabbc16eb71a34d429433ace68f4\transformed\jetified-exoplayer-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\dfaf74bab5b4a298b819bb4f4d2e4511\transformed\jetified-exoplayer-dash-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\dfaf74bab5b4a298b819bb4f4d2e4511\transformed\jetified-exoplayer-dash-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\f17163d9d74838f82691e291b8e93be3\transformed\jetified-exoplayer-hls-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\f17163d9d74838f82691e291b8e93be3\transformed\jetified-exoplayer-hls-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\7dec94a9c9b9ae949f69b004f2b4f7c0\transformed\jetified-exoplayer-rtsp-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\7dec94a9c9b9ae949f69b004f2b4f7c0\transformed\jetified-exoplayer-rtsp-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\009004785410c3b199ca45b7c13e59e6\transformed\jetified-exoplayer-smoothstreaming-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\009004785410c3b199ca45b7c13e59e6\transformed\jetified-exoplayer-smoothstreaming-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\aaacafbadeb484631ec9f14bdac6324c\transformed\jetified-exoplayer-ui-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\aaacafbadeb484631ec9f14bdac6324c\transformed\jetified-exoplayer-ui-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d2d309554a5915194a00839bd9ac56be\transformed\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d2d309554a5915194a00839bd9ac56be\transformed\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\8de8187fe8fef0831cbd2f2b32bb3610\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\8de8187fe8fef0831cbd2f2b32bb3610\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d905c65e7434187c162fb9c624354852\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d905c65e7434187c162fb9c624354852\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d400ee79683a377c31a733dd91820995\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d400ee79683a377c31a733dd91820995\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\21ee44b95f1271e824a42a0befbfff26\transformed\media-1.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\21ee44b95f1271e824a42a0befbfff26\transformed\media-1.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\474f28c9caa6ba71d7b82695773dbc98\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\474f28c9caa6ba71d7b82695773dbc98\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\93e0d241a1b28e9be834094115789900\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\93e0d241a1b28e9be834094115789900\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\12b1b2d3ec7c5a18d8276bbd1eac3dbe\transformed\lifecycle-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\12b1b2d3ec7c5a18d8276bbd1eac3dbe\transformed\lifecycle-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\69dfcbf1c534895d9b26ff5404a9df45\transformed\room-runtime-2.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\69dfcbf1c534895d9b26ff5404a9df45\transformed\room-runtime-2.4.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\2233b438bd9d2926ca342400240019a3\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\2233b438bd9d2926ca342400240019a3\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\2c42a92550d2d5d4ab77ae65aa443b81\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\2c42a92550d2d5d4ab77ae65aa443b81\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\6a21146012d73784b76ef5cec95cdd04\transformed\jetified-exoplayer-datasource-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\6a21146012d73784b76ef5cec95cdd04\transformed\jetified-exoplayer-datasource-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\ceb5472d694d1130972aae75414c218e\transformed\jetified-exoplayer-database-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\ceb5472d694d1130972aae75414c218e\transformed\jetified-exoplayer-database-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\a706de063c1fab448f94dc14aaa9bf58\transformed\jetified-exoplayer-extractor-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\a706de063c1fab448f94dc14aaa9bf58\transformed\jetified-exoplayer-extractor-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\a541ee5b0c9e3b082cbd57e94804acd2\transformed\jetified-exoplayer-decoder-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\a541ee5b0c9e3b082cbd57e94804acd2\transformed\jetified-exoplayer-decoder-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\49e3c2df2f03aea55214931731a38b9f\transformed\jetified-exoplayer-common-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\49e3c2df2f03aea55214931731a38b9f\transformed\jetified-exoplayer-common-2.17.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\84f4ee8d0344ed89ce498105a1db9d27\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\84f4ee8d0344ed89ce498105a1db9d27\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\21208dd66db7927a8ff213c2dcaf98cd\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\21208dd66db7927a8ff213c2dcaf98cd\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c09f4fa1b34b83a3a11323e4551a736a\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c09f4fa1b34b83a3a11323e4551a736a\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\0e04e0896fe6e5f243dde38eac347dfe\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\0e04e0896fe6e5f243dde38eac347dfe\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d5fc9ef9a9b24dc3b15f3f0d01101e57\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\d5fc9ef9a9b24dc3b15f3f0d01101e57\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\5561034aa6b5cc9c6ca084d31c5013c1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\5561034aa6b5cc9c6ca084d31c5013c1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\a25ce9ca18952c301218584dbe57588f\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\a25ce9ca18952c301218584dbe57588f\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\14132ed282e81655950c0696f874489b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\14132ed282e81655950c0696f874489b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c5b241e4d3cbbe591225c60f48fe3846\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\c5b241e4d3cbbe591225c60f48fe3846\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\09859e25fa2b30f2c3b6bf0c9673068f\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\09859e25fa2b30f2c3b6bf0c9673068f\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\f45d4eb05411132ea9cf010e71f27f06\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\f45d4eb05411132ea9cf010e71f27f06\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\7cca0d4acb01fd09185139bc6b69efb9\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\7cca0d4acb01fd09185139bc6b69efb9\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3fed2134409acdf2288bccc062ae9ae8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3fed2134409acdf2288bccc062ae9ae8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\84f4ee8d0344ed89ce498105a1db9d27\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\84f4ee8d0344ed89ce498105a1db9d27\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3fed2134409acdf2288bccc062ae9ae8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3fed2134409acdf2288bccc062ae9ae8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3fed2134409acdf2288bccc062ae9ae8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\69dfcbf1c534895d9b26ff5404a9df45\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\69dfcbf1c534895d9b26ff5404a9df45\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\69dfcbf1c534895d9b26ff5404a9df45\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\69dfcbf1c534895d9b26ff5404a9df45\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74

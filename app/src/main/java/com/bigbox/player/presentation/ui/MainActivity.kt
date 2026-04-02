@@ -5,7 +5,6 @@ import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import coil.load
 import com.bigbox.player.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -21,7 +20,6 @@ class MainActivity : AppCompatActivity() {
         val macAddress = intent.getStringExtra("MAC_ADDRESS") ?: "00:00:00:00:00:00"
         
         setupUI(macAddress)
-        loadCategoryImages()
     }
 
     private fun setupUI(mac: String) {
@@ -62,11 +60,5 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.cardCanais.requestFocus()
-    }
-
-    private fun loadCategoryImages() {
-        binding.imgCanais.load(webviewBaseUrl + "canais.png")
-        binding.imgFilmes.load(webviewBaseUrl + "filmes.png")
-        binding.imgSeries.load(webviewBaseUrl + "series.png")
     }
 }

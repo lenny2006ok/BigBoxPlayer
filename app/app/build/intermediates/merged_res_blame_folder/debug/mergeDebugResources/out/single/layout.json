@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.bigbox.player.app-mergeDebugResources-37:/layout/activity_splash.xml",
+        "source": "com.bigbox.player.app-main-40:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-mergeDebugResources-37:/layout/activity_series_details.xml",
+        "source": "com.bigbox.player.app-main-40:/layout/activity_series_details.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-mergeDebugResources-37:/layout/activity_category.xml",
+        "source": "com.bigbox.player.app-main-40:/layout/activity_category.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-mergeDebugResources-37:/layout/activity_movie_details.xml",
+        "source": "com.bigbox.player.app-main-40:/layout/activity_movie_details.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-mergeDebugResources-37:/layout/item_episode.xml",
+        "source": "com.bigbox.player.app-main-40:/layout/item_episode.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-mergeDebugResources-37:/layout/activity_player.xml",
+        "source": "com.bigbox.player.app-main-40:/layout/activity_player.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-mergeDebugResources-37:/layout/activity_main.xml",
+        "source": "com.bigbox.player.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-mergeDebugResources-37:/layout/item_sidebar_category.xml",
+        "source": "com.bigbox.player.app-main-40:/layout/item_sidebar_category.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-mergeDebugResources-37:/layout/item_season.xml",
+        "source": "com.bigbox.player.app-main-40:/layout/item_season.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-mergeDebugResources-37:/layout/item_stream.xml",
+        "source": "com.bigbox.player.app-main-40:/layout/item_stream.xml"
+    }
+]

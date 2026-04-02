@@ -4,26 +4,64 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bigbox.player.data.remote.XtreamCategory
-import com.bigbox.player.databinding.ItemStreamBinding
+import com.bigbox.player.databinding.ItemSidebarCategoryBinding
+import kotlinx.coroutines.*
 
 class CategoryAdapter(
     private val categories: List<XtreamCategory>,
-    private val onCategoryClick: (XtreamCategory) -> Unit
+    private val onCategorySelected: (XtreamCategory) -> Unit
 ) : RecyclerView.Adapter<CategoryAdapter.ViewHolder>() {
 
-    class ViewHolder(val binding: ItemStreamBinding) : RecyclerView.ViewHolder(binding.root)
+    private var selectedPosition = 0
+    private val adapterScope = CoroutineScope(Dispatchers.Main + SupervisorJob())
+    private var selectionJob: Job? = null
+
+    class ViewHolder(val binding: ItemSidebarCategoryBinding) : RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val binding = ItemStreamBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val binding = ItemSidebarCategoryBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(binding)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val cat = categories[position]
-        holder.binding.txtStreamName.text = cat.name
-        holder.binding.imgStreamIcon.setImageResource(android.R.drawable.ic_menu_slideshow)
-        holder.itemView.setOnClickListener { onCategoryClick(cat) }
+        holder.binding.txtCategoryName.text = cat.name
+        
+        // Estado Visual: Seleção (Sincronizado com o Grid)
+        holder.itemView.isSelected = (position == selectedPosition)
+
+        // Comportamento focado no D-Pad (Controle Remoto)
+        holder.itemView.setOnFocusChangeListener { _, hasFocus ->
+            if (hasFocus) {
+                updateSelected(position)
+                
+                // Debounce Inteligente: Só carrega se o foco parar por 350ms
+                selectionJob?.cancel()
+                selectionJob = adapterScope.launch {
+                    delay(350)
+                    onCategorySelected(cat)
+                }
+            }
+        }
+
+        holder.itemView.setOnClickListener {
+            selectionJob?.cancel()
+            updateSelected(position)
+            onCategorySelected(cat)
+        }
+    }
+
+    private fun updateSelected(newPos: Int) {
+        val oldPos = selectedPosition
+        selectedPosition = newPos
+        notifyItemChanged(oldPos)
+        notifyItemChanged(selectedPosition)
     }
 
     override fun getItemCount() = categories.size
+    
+    // Limpar recursos ao destruir
+    fun onDetached() {
+        adapterScope.cancel()
+    }
 }

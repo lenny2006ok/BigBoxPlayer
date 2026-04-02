@@ -1,0 +1,171 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bigbox.player"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <uses-feature
+14-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:8:5-86
+15        android:name="android.software.leanback"
+15-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:8:19-59
+16        android:required="true" />
+16-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:8:60-83
+17    <uses-feature
+17-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:9:5-90
+18        android:name="android.hardware.touchscreen"
+18-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:9:19-62
+19        android:required="false" />
+19-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:9:63-87
+20
+21    <application
+21-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:11:5-70:19
+22        android:allowBackup="false"
+22-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:12:9-36
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.8.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\93e0d241a1b28e9be834094115789900\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+24        android:banner="@drawable/tv_banner"
+24-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:14:9-45
+25        android:debuggable="true"
+26        android:extractNativeLibs="true"
+27        android:icon="@drawable/tv_banner"
+27-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:15:9-43
+28        android:isGame="false"
+28-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:13:9-31
+29        android:label="@string/app_name"
+29-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:16:9-41
+30        android:logo="@drawable/tv_banner"
+30-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:17:9-43
+31        android:supportsRtl="true"
+31-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:18:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.BigBoxPlayer"
+33-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:19:9-50
+34        android:usesCleartextTraffic="true" >
+34-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:20:9-44
+35        <activity
+35-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:22:9-32:20
+36            android:name="com.bigbox.player.presentation.ui.SplashActivity"
+36-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:23:13-59
+37            android:exported="true"
+37-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:24:13-36
+38            android:screenOrientation="landscape"
+38-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:25:13-50
+39            android:theme="@style/Theme.BigBoxPlayer.FullScreen" >
+39-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:26:13-65
+40            <intent-filter>
+40-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:27:13-31:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:28:17-69
+41-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:28:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:29:17-77
+43-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:29:27-74
+44                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+44-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:30:17-86
+44-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:30:27-83
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:34:9-37:53
+48            android:name="com.bigbox.player.presentation.ui.MainActivity"
+48-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:35:13-57
+49            android:exported="false"
+49-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:36:13-37
+50            android:screenOrientation="landscape" />
+50-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:37:13-50
+51        <activity
+51-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:39:9-42:53
+52            android:name="com.bigbox.player.presentation.ui.LiveActivity"
+52-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:40:13-57
+53            android:exported="false"
+53-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:41:13-37
+54            android:screenOrientation="landscape" />
+54-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:42:13-50
+55        <activity
+55-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:44:9-47:53
+56            android:name="com.bigbox.player.presentation.ui.MoviesActivity"
+56-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:45:13-59
+57            android:exported="false"
+57-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:46:13-37
+58            android:screenOrientation="landscape" />
+58-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:47:13-50
+59        <activity
+59-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:49:9-52:53
+60            android:name="com.bigbox.player.presentation.ui.SeriesActivity"
+60-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:50:13-59
+61            android:exported="false"
+61-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:51:13-37
+62            android:screenOrientation="landscape" />
+62-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:52:13-50
+63        <activity
+63-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:54:9-57:53
+64            android:name="com.bigbox.player.presentation.ui.SeriesDetailsActivity"
+64-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:55:13-66
+65            android:exported="false"
+65-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:56:13-37
+66            android:screenOrientation="landscape" />
+66-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:57:13-50
+67        <activity
+67-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:59:9-62:53
+68            android:name="com.bigbox.player.presentation.ui.MovieDetailsActivity"
+68-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:60:13-65
+69            android:exported="false"
+69-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:61:13-37
+70            android:screenOrientation="landscape" />
+70-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:62:13-50
+71        <activity
+71-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:64:9-68:78
+72            android:name="com.bigbox.player.presentation.ui.PlayerActivity"
+72-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:65:13-59
+73            android:configChanges="orientation|screenSize|layoutDirection"
+73-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:68:13-75
+74            android:exported="false"
+74-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:66:13-37
+75            android:screenOrientation="landscape" />
+75-->C:\Users\kmuflad\AndroidStudioProjects\BigBoxPlayer-master\app\src\main\AndroidManifest.xml:67:13-50
+76
+77        <provider
+77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+78            android:name="androidx.startup.InitializationProvider"
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+79            android:authorities="com.bigbox.player.androidx-startup"
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+80            android:exported="false" >
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+81            <meta-data
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+83                android:value="androidx.startup" />
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\32a56c05f8a99134f8395a6f26f2d42e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+84            <meta-data
+84-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3fed2134409acdf2288bccc062ae9ae8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3fed2134409acdf2288bccc062ae9ae8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+86                android:value="androidx.startup" />
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\3fed2134409acdf2288bccc062ae9ae8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+87        </provider>
+88
+89        <service
+89-->[androidx.room:room-runtime:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\69dfcbf1c534895d9b26ff5404a9df45\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+90            android:name="androidx.room.MultiInstanceInvalidationService"
+90-->[androidx.room:room-runtime:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\69dfcbf1c534895d9b26ff5404a9df45\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+91            android:directBootAware="true"
+91-->[androidx.room:room-runtime:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\69dfcbf1c534895d9b26ff5404a9df45\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+92            android:exported="false" />
+92-->[androidx.room:room-runtime:2.4.3] C:\Users\kmuflad\.gradle\caches\9.0-milestone-1\transforms\69dfcbf1c534895d9b26ff5404a9df45\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+93    </application>
+94
+95</manifest>

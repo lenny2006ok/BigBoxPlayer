@@ -30,4 +30,13 @@ interface XtreamService {
         @Query("action") action: String = "get_series_info",
         @Query("series_id") seriesId: Int
     ): Response<XtreamSeriesInfo>
+
+    // Pegar Informações do Filme (VOD)
+    @GET("player_api.php")
+    suspend fun getVodInfo(
+        @Query("username") u: String,
+        @Query("password") p: String,
+        @Query("action") action: String = "get_vod_info",
+        @Query("vod_id") vodId: Int
+    ): Response<XtreamVodResponse>
 }

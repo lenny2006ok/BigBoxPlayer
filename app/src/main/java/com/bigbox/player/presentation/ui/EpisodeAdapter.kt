@@ -26,8 +26,8 @@ class EpisodeAdapter(
         
         holder.binding.imgEpisodeIcon.load(episode.info?.movieImage) {
             crossfade(true)
-            placeholder(android.R.drawable.ic_media_play)
-            error(android.R.drawable.ic_media_play)
+            placeholder(com.bigbox.player.R.drawable.logo)
+            error(com.bigbox.player.R.drawable.logo)
         }
 
         holder.itemView.setOnClickListener {

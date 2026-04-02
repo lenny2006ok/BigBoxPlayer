@@ -4,8 +4,11 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
+import coil.request.CachePolicy
 import com.bigbox.player.data.remote.XtreamStream
 import com.bigbox.player.databinding.ItemStreamBinding
+import androidx.constraintlayout.widget.ConstraintLayout
+import android.view.ViewGroup.MarginLayoutParams
 
 class StreamAdapter(
     private val items: List<XtreamStream>,
@@ -27,9 +30,28 @@ class StreamAdapter(
         val imageUrl = if (!stream.cover.isNullOrEmpty()) stream.cover else stream.icon
         
         holder.binding.imgStreamIcon.load(imageUrl) {
-            crossfade(true)
-            placeholder(android.R.drawable.ic_menu_report_image)
-            error(android.R.drawable.ic_menu_report_image)
+            crossfade(100) // Reduzido para maior fluidez
+            placeholder(com.bigbox.player.R.drawable.logo)
+            error(com.bigbox.player.R.drawable.logo)
+            memoryCachePolicy(CachePolicy.ENABLED)
+            diskCachePolicy(CachePolicy.ENABLED)
+        }
+
+        // Animação de Foco (Otimização para TV)
+        holder.itemView.setOnFocusChangeListener { view, hasFocus ->
+            if (hasFocus) {
+                // Aumenta escala e margin do título
+                view.animate().scaleX(1.1f).scaleY(1.1f).setDuration(200).start()
+                val params = holder.binding.txtStreamName.layoutParams as MarginLayoutParams
+                params.topMargin = 16 // Aumenta margin no foco
+                holder.binding.txtStreamName.layoutParams = params
+            } else {
+                // Volta ao normal
+                view.animate().scaleX(1.0f).scaleY(1.0f).setDuration(200).start()
+                val params = holder.binding.txtStreamName.layoutParams as MarginLayoutParams
+                params.topMargin = 8 // Volta margin padrão
+                holder.binding.txtStreamName.layoutParams = params
+            }
         }
 
         holder.itemView.setOnClickListener {

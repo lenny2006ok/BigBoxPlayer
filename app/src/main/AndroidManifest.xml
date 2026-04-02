@@ -57,6 +57,11 @@
             android:screenOrientation="landscape" />
 
         <activity
+            android:name=".presentation.ui.MovieDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <activity
             android:name=".presentation.ui.PlayerActivity"
             android:exported="false"
             android:screenOrientation="landscape"

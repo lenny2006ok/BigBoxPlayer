@@ -53,3 +53,27 @@ data class XtreamUser(
     val exp_date: String?,
     val active_cons: String?
 )
+
+data class XtreamVodResponse(
+    @SerializedName("info") val info: XtreamVodInfo?,
+    @SerializedName("movie_data") val movieData: XtreamVodData?
+)
+
+data class XtreamVodInfo(
+    @SerializedName("name") val name: String?,
+    @SerializedName("movie_image") val movieImage: String?,
+    @SerializedName("plot") val plot: String?,
+    @SerializedName("rating") val rating: String?,
+    @SerializedName("releasedate") val releaseDate: String?,
+    @SerializedName("genre") val genre: String?,
+    @SerializedName("director") val director: String?,
+    @SerializedName("actors") val actors: String?,
+    @SerializedName("duration") val duration: String?,
+    @SerializedName("tmdb_id") val tmdbId: String?
+)
+
+data class XtreamVodData(
+    @SerializedName("stream_id") val streamId: Int?,
+    @SerializedName("name") val name: String?,
+    @SerializedName("container_extension") val containerExtension: String?
+)

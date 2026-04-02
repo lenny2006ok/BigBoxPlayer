@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\layout_item_episode.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\layout\\item_episode.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\drawable_bg_sidebar_item.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\drawable\\bg_sidebar_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\drawable_splash_full_gradient.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\drawable\\splash_full_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\layout_item_season.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\layout\\item_season.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\layout_activity_category.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\layout\\activity_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\layout_activity_series_details.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\layout\\activity_series_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\drawable_ic_tv_series.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\drawable\\ic_tv_series.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\drawable_ic_live_tv.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\drawable\\ic_live_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\drawable_tv_banner.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\drawable\\tv_banner.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\drawable_bg_card_selector.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\drawable\\bg_card_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\layout_activity_player.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\layout\\activity_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\drawable_logo3.png.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\drawable\\logo3.png"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\layout_item_stream.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\layout\\item_stream.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\drawable_ic_movie.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\drawable\\ic_movie.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\layout_item_sidebar_category.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\layout\\item_sidebar_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\drawable_bg_card_premium.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\drawable\\bg_card_premium.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\drawable_logo2.png.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\drawable\\logo2.png"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\drawable_bg_gradient_details.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\drawable\\bg_gradient_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\drawable_splash_gradient.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\drawable\\splash_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-debug-38:\\layout_activity_movie_details.xml.flat",
+        "source": "C:\\Users\\kmuflad\\.gradle\\daemon\\9.0-milestone-1\\com.bigbox.player.app-main-40:\\layout\\activity_movie_details.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-debug-38:/drawable_logo.png.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/logo.png"
+    }
+]

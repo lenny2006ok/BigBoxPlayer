@@ -11,6 +11,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.bigbox.player.data.repository.XtreamRepository
 import com.bigbox.player.databinding.ActivityCategoryBinding
 import com.bigbox.player.presentation.viewmodel.LiveUiState
@@ -33,8 +34,6 @@ class LiveActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityCategoryBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        binding.txtCategoryTitle.text = "CANAIS AO VIVO"
         
         setupObservers()
         initData()
@@ -60,9 +59,16 @@ class LiveActivity : AppCompatActivity() {
                         is LiveUiState.Loading -> binding.loadingCategory.visibility = View.VISIBLE
                         is LiveUiState.SuccessCategories -> {
                             binding.loadingCategory.visibility = View.GONE
-                            binding.recyclerItems.layoutManager = GridLayoutManager(this@LiveActivity, 2)
-                            binding.recyclerItems.adapter = CategoryAdapter(state.categories) { category ->
+                            
+                            // Configura Sidebar
+                            binding.recyclerSidebar.layoutManager = LinearLayoutManager(this@LiveActivity)
+                            binding.recyclerSidebar.adapter = CategoryAdapter(state.categories) { category ->
                                 viewModel.loadStreams(category.id)
+                            }
+
+                            // Carrega a primeira categoria automaticamente
+                            if (state.categories.isNotEmpty()) {
+                                viewModel.loadStreams(state.categories[0].id)
                             }
                         }
                         is LiveUiState.SuccessStreams -> {

@@ -11,6 +11,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.bigbox.player.data.repository.XtreamRepository
 import com.bigbox.player.databinding.ActivityCategoryBinding
 import com.bigbox.player.presentation.viewmodel.SeriesUiState
@@ -35,8 +36,6 @@ class SeriesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityCategoryBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        binding.txtCategoryTitle.text = "SÉRIES"
         
         setupObservers()
         initData()
@@ -64,9 +63,16 @@ class SeriesActivity : AppCompatActivity() {
                         }
                         is SeriesUiState.SuccessCategories -> {
                             binding.loadingCategory.visibility = View.GONE
-                            binding.recyclerItems.layoutManager = GridLayoutManager(this@SeriesActivity, 2)
-                            binding.recyclerItems.adapter = CategoryAdapter(state.categories) { category ->
+                            
+                            // Configura Sidebar
+                            binding.recyclerSidebar.layoutManager = LinearLayoutManager(this@SeriesActivity)
+                            binding.recyclerSidebar.adapter = CategoryAdapter(state.categories) { category ->
                                 viewModel.loadStreams(category.id)
+                            }
+
+                            // Carrega a primeira categoria automaticamente
+                            if (state.categories.isNotEmpty()) {
+                                viewModel.loadStreams(state.categories[0].id)
                             }
                         }
                         is SeriesUiState.SuccessStreams -> {

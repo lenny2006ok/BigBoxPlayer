@@ -18,7 +18,7 @@ sealed class AuthUiState {
     object Idle : AuthUiState()
     object Loading : AuthUiState()
     data class Success(val playlistUrl: String, val mac: String) : AuthUiState()
-    data class Error(val message: String) : AuthUiState()
+    data class Error(val message: String, val mac: String) : AuthUiState()
 }
 
 class AuthViewModel : ViewModel() {
@@ -32,9 +32,9 @@ class AuthViewModel : ViewModel() {
             
             // Delay obrigatório de 8s para a animação de Front-end
             val splashJob = launch { delay(8000) }
+            val mac = generatePseudoMac(context)
             
             try {
-                val mac = generatePseudoMac(context)
                 val response = RetrofitClient.apiService.authenticate(AuthRequest(mac))
                 
                 splashJob.join() // Garante que a animação termine
@@ -44,14 +44,14 @@ class AuthViewModel : ViewModel() {
                     if (url != null) {
                         _uiState.value = AuthUiState.Success(url, mac)
                     } else {
-                        _uiState.value = AuthUiState.Error("Playlist não configurada.")
+                        _uiState.value = AuthUiState.Error("Playlist não configurada.", mac)
                     }
                 } else {
-                    _uiState.value = AuthUiState.Error(response.body()?.message ?: "Dispositivo Bloqueado")
+                    _uiState.value = AuthUiState.Error(response.body()?.message ?: "Dispositivo Bloqueado", mac)
                 }
             } catch (e: Exception) {
                 splashJob.join()
-                _uiState.value = AuthUiState.Error("Erro de Conexão: ${e.message}")
+                _uiState.value = AuthUiState.Error("Erro de Conexão: ${e.message}", mac)
             }
         }
     }

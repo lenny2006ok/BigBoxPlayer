@@ -29,10 +29,7 @@ class CategoryActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val title = intent.getStringExtra("TITLE") ?: "CATEGORIA"
-        action = intent.getStringExtra("ACTION") ?: ""
         val playlistUrl = intent.getStringExtra("PLAYLIST_URL") ?: ""
-
-        binding.txtCategoryTitle.text = title
 
         if (playlistUrl.isNotEmpty()) {
             parsePlaylistUrl(playlistUrl)

@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.bigbox.player.data.remote.XtreamCategory
 import com.bigbox.player.data.remote.XtreamStream
 import com.bigbox.player.data.repository.XtreamRepository
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
@@ -22,6 +23,7 @@ class MoviesViewModel(private val repository: XtreamRepository) : ViewModel() {
     private val _uiState = MutableStateFlow<MoviesUiState>(MoviesUiState.Idle)
     val uiState: StateFlow<MoviesUiState> = _uiState
 
+    private var loadingJob: Job? = null
     var user: String = ""
     var pass: String = ""
 
@@ -37,7 +39,8 @@ class MoviesViewModel(private val repository: XtreamRepository) : ViewModel() {
     }
 
     fun loadStreams(catId: String) {
-        viewModelScope.launch {
+        loadingJob?.cancel()
+        loadingJob = viewModelScope.launch {
             _uiState.value = MoviesUiState.Loading
             repository.getStreams(user, pass, "get_vod_streams", catId)
                 .onSuccess { _uiState.value = MoviesUiState.SuccessStreams(it) }
