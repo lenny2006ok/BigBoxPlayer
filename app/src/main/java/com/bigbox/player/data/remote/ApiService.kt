@@ -3,7 +3,9 @@ package com.bigbox.player.data.remote
 import com.google.gson.annotations.SerializedName
 import retrofit2.Response
 import retrofit2.http.Body
+import retrofit2.http.GET
 import retrofit2.http.POST
+import retrofit2.http.Query
 
 data class AuthRequest(
     @SerializedName("mac_address") val macAddress: String
@@ -27,8 +29,15 @@ data class ThemeConfig(
     @SerializedName("series_name") val seriesName: String?
 )
 
+data class CodeResponse(
+    val mac: String,
+    val password: String?
+)
+
 interface ApiService {
-    // No seu PHP o arquivo se chama api.php
     @POST("api.php")
     suspend fun authenticate(@Body request: AuthRequest): Response<AuthResponse>
+
+    @GET("code.php")
+    suspend fun getDeviceCode(@Query("mac") mac: String): Response<CodeResponse>
 }

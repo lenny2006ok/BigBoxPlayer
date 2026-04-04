@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/drawable_logo.png.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/logo.png"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.bigbox.player.app-main-40:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/layout_activity_category.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/layout/activity_category.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/drawable_logo2.png.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/logo2.png"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/layout_activity_player.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/layout/activity_player.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/layout_item_stream.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/layout/item_stream.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.bigbox.player.app-main-40:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/drawable_splash_gradient.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/splash_gradient.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/drawable_bg_gradient_details.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/bg_gradient_details.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.bigbox.player.app-main-40:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/drawable_bg_sidebar_item.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/bg_sidebar_item.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/layout_item_episode.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/layout/item_episode.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/layout_activity_series_details.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/layout/activity_series_details.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.bigbox.player.app-main-40:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/layout_activity_splash.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/layout_activity_movie_details.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/layout/activity_movie_details.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/drawable_ic_live_tv.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/ic_live_tv.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/layout_item_sidebar_category.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/layout/item_sidebar_category.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/drawable_bg_card_premium.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/bg_card_premium.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/drawable_logo3.png.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/logo3.png"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/drawable_ic_tv_series.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/ic_tv_series.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.bigbox.player.app-main-40:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/drawable_splash_full_gradient.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/splash_full_gradient.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/layout_item_season.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/layout/item_season.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/drawable_ic_movie.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/ic_movie.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/drawable_bg_card_selector.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/bg_card_selector.xml"
+    },
+    {
+        "merged": "com.bigbox.player.app-merged_res-38:/drawable_tv_banner.xml.flat",
+        "source": "com.bigbox.player.app-main-40:/drawable/tv_banner.xml"
+    }
+]

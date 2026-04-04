@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bigbox.player.app-mergeDebugResources-36:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lenny\\.gradle\\caches\\9.0-milestone-1\\transforms\\e7e8a78cdd97d7845d9c4c2f9b010ea0\\transformed\\appcompat-1.4.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

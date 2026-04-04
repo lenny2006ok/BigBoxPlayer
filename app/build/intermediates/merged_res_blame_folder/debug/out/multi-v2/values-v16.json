@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bigbox.player.app-mergeDebugResources-36:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lenny\\.gradle\\caches\\9.0-milestone-1\\transforms\\e7e8a78cdd97d7845d9c4c2f9b010ea0\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenny\\.gradle\\caches\\9.0-milestone-1\\transforms\\44a15389914a8848896b6074623c7e48\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

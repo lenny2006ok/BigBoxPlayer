@@ -6,12 +6,12 @@ import android.provider.Settings
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.bigbox.player.data.remote.AuthRequest
-import com.bigbox.player.data.remote.AuthResponse
 import com.bigbox.player.data.remote.RetrofitClient
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.delay
 import java.util.Locale
 
 sealed class AuthUiState {
@@ -24,20 +24,21 @@ sealed class AuthUiState {
 class AuthViewModel : ViewModel() {
 
     private val _uiState = MutableStateFlow<AuthUiState>(AuthUiState.Idle)
-    val uiState: StateFlow<AuthUiState> = _uiState
+    val uiState: StateFlow<AuthUiState> = _uiState.asStateFlow()
+
+    private val _activationUrl = MutableStateFlow("")
+    val activationUrl: StateFlow<String> = _activationUrl.asStateFlow()
 
     fun startAuthentication(context: Context) {
         viewModelScope.launch {
             _uiState.value = AuthUiState.Loading
             
-            // Delay obrigatório de 8s para a animação de Front-end
-            val splashJob = launch { delay(8000) }
             val mac = generatePseudoMac(context)
+            val splashJob = launch { delay(8000) }
             
             try {
                 val response = RetrofitClient.apiService.authenticate(AuthRequest(mac))
-                
-                splashJob.join() // Garante que a animação termine
+                splashJob.join()
 
                 if (response.isSuccessful && response.body()?.status == "success") {
                     val url = response.body()?.data?.playlistUrl
@@ -52,6 +53,22 @@ class AuthViewModel : ViewModel() {
             } catch (e: Exception) {
                 splashJob.join()
                 _uiState.value = AuthUiState.Error("Erro de Conexão: ${e.message}", mac)
+            }
+        }
+    }
+
+    fun fetchActivationCredentials(deviceMac: String) {
+        viewModelScope.launch {
+            try {
+                val response = RetrofitClient.apiService.getDeviceCode(deviceMac)
+                val devicePass = if (response.isSuccessful && !response.body()?.password.isNullOrEmpty()) {
+                    response.body()!!.password!!
+                } else {
+                    "admin"
+                }
+                _activationUrl.value = "https://bigbox.eletrixtv.top/playlist.php?mac=$deviceMac&pass=$devicePass"
+            } catch (e: Exception) {
+                _activationUrl.value = "https://bigbox.eletrixtv.top/playlist.php?mac=$deviceMac&pass=admin"
             }
         }
     }

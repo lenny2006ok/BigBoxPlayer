@@ -3,6 +3,7 @@ package com.bigbox.player.presentation.ui
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -19,7 +20,9 @@ import com.bigbox.player.data.remote.RetrofitClient
 import com.bigbox.player.databinding.ActivitySplashBinding
 import com.bigbox.player.presentation.viewmodel.AuthUiState
 import com.bigbox.player.presentation.viewmodel.AuthViewModel
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
+import java.net.URLEncoder
 
 @SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {
@@ -45,19 +48,38 @@ class SplashActivity : AppCompatActivity() {
     private fun setupObservers() {
         lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.STARTED) {
-                viewModel.uiState.collect { state ->
-                    when (state) {
-                        is AuthUiState.Loading -> {
-                            binding.loadingContainer.visibility = View.VISIBLE
-                            binding.txtStatus.text = "Autenticando..."
+                
+                // 1. Escuta a URL de ativação para atualizar o QR Code
+                launch {
+                    viewModel.activationUrl.collect { urlCompleta ->
+                        if (urlCompleta.isNotEmpty()) {
+                            // CORREÇÃO CRÍTICA: Encode da URL completa para que o '&' não quebre o link do QR
+                            val encodedData = URLEncoder.encode(urlCompleta, "UTF-8")
+                            val qrGeneratorUrl = "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=$encodedData"
+                            
+                            binding.qrCodeImage.load(qrGeneratorUrl)
+                            Log.d("QR_DEBUG", "URL Enviada para QR: $urlCompleta")
                         }
-                        is AuthUiState.Success -> {
-                            showSuccessAnimation(state.playlistUrl, state.mac)
+                    }
+                }
+
+                // 2. Escuta o estado da autenticação
+                launch {
+                    viewModel.uiState.collect { state ->
+                        when (state) {
+                            is AuthUiState.Loading -> {
+                                binding.loadingContainer.visibility = View.VISIBLE
+                                binding.txtStatus.text = "Autenticando..."
+                            }
+                            is AuthUiState.Success -> {
+                                showSuccessAnimation(state.playlistUrl, state.mac)
+                            }
+                            is AuthUiState.Error -> {
+                                showErrorWithAnimation(state.message, state.mac)
+                                viewModel.fetchActivationCredentials(state.mac)
+                            }
+                            else -> Unit
                         }
-                        is AuthUiState.Error -> {
-                            showErrorWithAnimation(state.message, state.mac)
-                        }
-                        else -> Unit
                     }
                 }
             }
@@ -65,6 +87,13 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun showErrorWithAnimation(msg: String, mac: String) {
+        // Evita rodar a animação se já estivermos na tela de erro
+        if (binding.macQrContainer.alpha > 0f) {
+            binding.txtErrorTitle.text = msg
+            binding.txtMac.text = "MAC: $mac"
+            return
+        }
+
         // Esconder o loading
         binding.loadingContainer.animate().alpha(0f).setDuration(500).withEndAction {
             binding.loadingContainer.visibility = View.GONE
@@ -73,17 +102,13 @@ class SplashActivity : AppCompatActivity() {
         // Configurar os dados
         binding.txtErrorTitle.text = msg
         binding.txtMac.text = "MAC: $mac"
-        
-        // Gerar QR Code via API pública para facilitar
-        val qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=$mac"
-        binding.qrCodeImage.load(qrUrl)
 
         // Iniciar a transição de layout
         val constraintLayout = binding.root
         val constraintSet = ConstraintSet()
         constraintSet.clone(constraintLayout)
 
-        // Mover o logo para a esquerda (alinhar o lado direito do logo com a guia central)
+        // Mover o logo para a esquerda
         constraintSet.clear(binding.imgLogo.id, ConstraintSet.END)
         constraintSet.connect(binding.imgLogo.id, ConstraintSet.END, binding.guidelineCenter.id, ConstraintSet.START)
         constraintSet.setMargin(binding.imgLogo.id, ConstraintSet.END, 32)
@@ -93,21 +118,18 @@ class SplashActivity : AppCompatActivity() {
         TransitionManager.beginDelayedTransition(constraintLayout, transition)
         constraintSet.applyTo(constraintLayout)
 
-        // Fade in do gradiente e do container de MAC
+        // Fade in do gradiente e do container de MAC/QR
         binding.leftGradient.animate().alpha(1f).setDuration(1000).start()
         binding.macQrContainer.animate().alpha(1f).setDuration(1200).start()
     }
 
     private fun showSuccessAnimation(playlistUrl: String, mac: String) {
-        // Esconder o loading e qualquer resquício do gradiente de 50%
         binding.loadingContainer.animate().alpha(0f).setDuration(300).start()
         binding.leftGradient.animate().alpha(0f).setDuration(300).start()
         binding.macQrContainer.animate().alpha(0f).setDuration(300).start()
 
-        // Ativar o fundo total (Gradiente preenchendo toda a tela)
         binding.fullGradient.animate().alpha(1f).setDuration(500).start()
 
-        // Explosão do Logo (Escala 10x para sair da tela + Alpha 0)
         binding.imgLogo.animate()
             .scaleX(10f)
             .scaleY(10f)
@@ -115,8 +137,6 @@ class SplashActivity : AppCompatActivity() {
             .setDuration(900)
             .withEndAction {
                 navigateToMain(playlistUrl, mac)
-                // Transição suave entre as telas
-                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
             }
             .start()
     }
@@ -128,11 +148,6 @@ class SplashActivity : AppCompatActivity() {
         }
         startActivity(intent)
         finish()
-    }
-
-    private fun showError(msg: String) {
-        binding.loadingBar.visibility = View.GONE
-        binding.txtStatus.text = msg
-        binding.txtStatus.setTextColor(android.graphics.Color.RED)
+        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
     }
 }
