@@ -17,7 +17,8 @@
         android:logo="@drawable/tv_banner"
         android:supportsRtl="true"
         android:theme="@style/Theme.BigBoxPlayer"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true">
 
         <activity
             android:name=".presentation.ui.SplashActivity"
@@ -66,6 +67,15 @@
             android:exported="false"
             android:screenOrientation="landscape"
             android:configChanges="orientation|screenSize|layoutDirection" />
-            
+
+        <activity
+            android:name=".presentation.ui.SettingsActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <activity android:name=".presentation.ui.SettingsMenuActivity" />
+
+        <activity android:name=".presentation.ui.PlaylistInfoActivity" />
+
     </application>
 </manifest>

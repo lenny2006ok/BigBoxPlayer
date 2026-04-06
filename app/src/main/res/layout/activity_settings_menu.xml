@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configurações"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:id="@+id/btnMenuPlayer"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Player de Vídeo"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#333333"
+        android:textColor="#FFFFFF"
+        android:focusable="true"
+        android:nextFocusDown="@+id/btnMenuPlaylist" />
+
+    <Button
+        android:id="@+id/btnMenuPlaylist"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Informações da Playlist"
+        android:textSize="18sp"
+        android:backgroundTint="#333333"
+        android:textColor="#FFFFFF"
+        android:focusable="true"
+        android:nextFocusUp="@+id/btnMenuPlayer" />
+
+</LinearLayout>

@@ -1,4 +1,0 @@
-#Thu Apr 02 19:26:18 BRT 2026
-base.0=C\:\\Users\\lenny\\AndroidStudioProjects\\BigBoxPlayer\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-path.0=0/classes.dex
-renamed.0=classes.dex

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A0A"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configurações"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOTOR DE VÍDEO (PLAYER)"
+            android:textColor="#80FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Canais -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#1A1A1A"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Canais de TV"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <RadioGroup
+                    android:id="@+id/rgLive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbExoLive"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ExoPlayer"
+                        android:textColor="#CCCCCC"
+                        android:buttonTint="#FFFFFF"
+                        android:layout_marginEnd="24dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbVlcLive"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VLC Player"
+                        android:textColor="#CCCCCC"
+                        android:buttonTint="#FFFFFF"/>
+                </RadioGroup>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Filmes -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#1A1A1A"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Filmes"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <RadioGroup
+                    android:id="@+id/rgMovies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbExoMovies"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ExoPlayer"
+                        android:textColor="#CCCCCC"
+                        android:buttonTint="#FFFFFF"
+                        android:layout_marginEnd="24dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbVlcMovies"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VLC Player"
+                        android:textColor="#CCCCCC"
+                        android:buttonTint="#FFFFFF"/>
+                </RadioGroup>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Séries -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#1A1A1A"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Séries"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <RadioGroup
+                    android:id="@+id/rgSeries"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbExoSeries"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ExoPlayer"
+                        android:textColor="#CCCCCC"
+                        android:buttonTint="#FFFFFF"
+                        android:layout_marginEnd="24dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbVlcSeries"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VLC Player"
+                        android:textColor="#CCCCCC"
+                        android:buttonTint="#FFFFFF"/>
+                </RadioGroup>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
